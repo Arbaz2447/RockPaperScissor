@@ -37,7 +37,7 @@ submit.addEventListener("click", (e) => {
 // Event Listener for reset button
 let reset = document.getElementById("reset");
 reset.addEventListener("click", (e) => {
-  pc = "1";
+  pc = "";
   Me = "";
   computer.value = pc;
   user1.value = Me;
