@@ -77,7 +77,7 @@ h1{
 }
 #reset,#submit {
   font-size: 20px;
-  border: 2px solid black;
+  border: 2px solid white;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   padding: 12px;
@@ -85,6 +85,7 @@ h1{
   display: block;
   margin:  12px auto;
   cursor: pointer;
+  width:14%;
   
 }
 #reset:hover,#submit:hover {
@@ -246,6 +247,7 @@ footer{
    }
    h1{
     height: 8%;
+     font-family:1.5rem;
    }
    #computer_div,#User_div{
        height: 58%;
