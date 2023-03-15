@@ -1,6 +1,6 @@
 //Global Declarations
 let user_name = prompt("Enter name", "Guest");
-let user = document.getElementById("user_name");
+let user = document.getElementById("headings");
 user.innerHTML = user_name;
 let pc = "";
 let Me = "";
@@ -135,6 +135,6 @@ let sleep2=async()=>{
 
         setInterval(() => {
           resolve();
-        }, 1100);
+        }, 500);
     })
 }
