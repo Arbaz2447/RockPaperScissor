@@ -142,3 +142,122 @@ footer{
   text-align: center;
   padding: 4px 0px;
 }
+@media (min-width:0px) and (max-width:650px) {
+    *{
+        font-size: 20px;
+        margin: 0px;
+    }
+    body{
+        background-color: url("night-photograph-2183637_1920.jpg")center no-repeat center/cover;
+        width:100%;
+        height:100vh;
+    }
+    h1{
+        margin: 0px;
+        font-size: 1.32rem;
+        height:8% ;
+        margin-bottom:6.3% ;
+        
+    }
+    h2{
+        margin: 3.5% 0px;
+    }
+    #container{
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+       
+    }
+    #computer_div,#User_div{
+        margin: 0px;
+        width: 85vw; 
+        height: 20.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* align-content: space-around; */
+        padding: 2.5%;
+        
+    }
+    #computer_div input,#User_div input{
+        width: 70%;
+        height: 25%;
+        font-size: 63%;
+        margin: 0px;
+        margin-bottom:6% ;
+    }
+    #score{
+        margin: 3.5% auto;
+        width: 90%;
+        height: 6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    #vs{
+       font-size: 50px;
+    }
+    #buttons{
+        display: flex;
+        /* height: 10%;
+        width: %; */
+    }
+    #submit,#reset{
+        width: 27.5%;
+        padding: 3% 4%;
+        height: 50%;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 30%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 78%;
+        /* margin: 10% 10%; */
+    }
+    #submit:hover,#reset:hover{
+        color: black;
+        background-color: #fff;
+        border: 2px solid black;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:fixed;
+        bottom: 0%;
+        background: #000;
+        width:100%;
+        height:4.5%;
+        padding: 0px;
+        margin: 0px;
+    }
+  }
+  @media (min-width:650px) and (max-width:850px){
+   body{
+    height: 100vh;
+    width: 99vw;
+   }
+   #score{
+    height: 9%;
+    padding: 3% 0%;
+   }
+   #container{
+    height:40vh;
+   }
+   h1{
+    height: 8%;
+   }
+   #computer_div,#User_div{
+       height: 58%;
+       width: 40%;
+   }
+   #vs{
+    font-size: 2.7rem;
+   }
+   footer{
+    position: fixed;
+    bottom:0px;
+   }
+
+  }
+
